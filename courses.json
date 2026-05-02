@@ -1,0 +1,61 @@
+[
+    {
+        "course_name": "Applied Artificial Intelligence",
+        "duration": "12 weeks",
+        "syllabus_summary": "Introduction to Machine Learning, Deep Learning fundamentals, NLP basics, and deploying AI models using RAG architectures and LLMs.",
+        "prerequisites": [
+            "Basic Python",
+            "Linear Algebra fundamentals",
+            "Basic Statistics"
+        ],
+        "price": "$500",
+        "target_audience": "Software developers and data enthusiasts wanting to transition into AI and build intelligent applications."
+    },
+    {
+        "course_name": "Cloud Architecture & Serverless Deployment",
+        "duration": "8 weeks",
+        "syllabus_summary": "Core cloud concepts, designing microservices, serverless frameworks (AWS Lambda), and scalable containerization using Docker and Kubernetes.",
+        "prerequisites": [
+            "Basic Networking",
+            "Linux Fundamentals",
+            "Command Line Interface familiarity"
+        ],
+        "price": "$450",
+        "target_audience": "System administrators, backend developers, and engineers looking to design robust cloud-native systems."
+    },
+    {
+        "course_name": "Full-Stack Web3 & Blockchain Development",
+        "duration": "10 weeks",
+        "syllabus_summary": "Ethereum blockchain fundamentals, smart contract development with Solidity, integrating React frontends, and deploying decentralized applications (DApps).",
+        "prerequisites": [
+            "JavaScript proficiency",
+            "React.js basics",
+            "Understanding of web architectures"
+        ],
+        "price": "$600",
+        "target_audience": "Frontend and backend engineers interested in exploring blockchain technologies and Web3 development."
+    },
+    {
+        "course_name": "Data Engineering and Pipeline Optimization",
+        "duration": "14 weeks",
+        "syllabus_summary": "Designing ETL/ELT processes, distributed computing with Apache Spark, data orchestration with Airflow, and managing real-time data streaming.",
+        "prerequisites": [
+            "Intermediate SQL",
+            "Python programming",
+            "Basic Database Design"
+        ],
+        "price": "$550",
+        "target_audience": "Data analysts and backend developers looking to build and optimize robust data infrastructure for enterprise scale."
+    },
+    {
+        "course_name": "Cybersecurity and Ethical Hacking",
+        "duration": "16 weeks",
+        "syllabus_summary": "Fundamentals of penetration testing, network security, cryptography, threat modeling, and securing modern web applications against common vulnerabilities.",
+        "prerequisites": [
+            "Networking Basics (TCP/IP)",
+            "Operating Systems Knowledge (Linux/Windows)"
+        ],
+        "price": "$700",
+        "target_audience": "IT professionals, system admins, and developers aiming to secure systems and pursue security certifications."
+    }
+]
