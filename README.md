@@ -30,35 +30,43 @@ A Retrieval-Augmented Generation (RAG) pipeline built to serve as an intelligent
 ```bash
 git clone https://github.com/WarLord7821/quanhack-rag-bot.git
 cd quanhack-rag-bot
-
+```
 ### 2. Set Up the Virtual Environment
-
+```bash
 python -m venv venv
 # On Windows
 venv\Scripts\activate
 # On Mac/Linux
 source venv/bin/activate
-
+```
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Environment Variables
 Create a .env file in the root directory and add your Groq API key:
+```bash
 GROQ_API_KEY=your_groq_api_key_here
-
+```
 
 ### 5. Build the Vector Database
 Ingest the courses.json file and create the local ChromaDB database (./chroma_data):
+```bash
 python database_builder.py
+```
 Note: This will download the all-MiniLM-L6-v2 embedding model on the first run.
 
 ### 6. Start the FastAPI Server
+```bash
 uvicorn main:app --reload
+```
 The server will start running locally at http://127.0.0.1:8000.
 
 ### 7. Connect Twilio via Ngrok
 Expose your local port to the internet using Ngrok:
+```bash
 ngrok http 8000
+```
 
 Copy the generated HTTPS URL and append /webhook (e.g., https://your-url.ngrok.app/webhook). Paste this into your Twilio Sandbox settings for incoming messages.
 
