@@ -99,12 +99,4 @@ def generate_response(user_message: str) -> str:
     except Exception as e:
         return f"An error occurred while communicating with the LLM: {str(e)}"
 
-# ==========================================
-# Local Testing Execution
-# ==========================================
-if __name__ == "__main__":
-    print("Testing AI Engine...")
-    test_query = "What is the price of the Data Science course?"
-    print(f"User: {test_query}")
-    response = generate_response(test_query)
-    print(f"Bot: {response}")
+
